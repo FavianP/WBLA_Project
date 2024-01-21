@@ -1,0 +1,43 @@
+*{
+    padding: 0 ;
+    margin:0;
+  }
+  
+  html{
+    scroll-behavior:smooth;
+  } 
+  
+  nav{
+    position:fixed;
+    top:0; 
+    left:0;
+    width:130%;
+    display:flex;
+    box-shadow: 0 5px 10px
+    
+  }
+  
+  .icon{
+    float:left;
+    height:50px;
+    
+    
+    
+  }
+  
+  ul{
+      display:flex;
+      width: 80%;
+    height:40px;
+      background-color:rgb(180,101,94);
+      justify-content:space-around;
+  }
+  
+  li{
+      list-style:none
+  }
+  
+  a{
+      text-decoration:none;
+      font-size:1.5rem;
+  }
